@@ -41,7 +41,7 @@ export default function Home() {
     <h1 className="flex text-2xl text-white font-bold">noapi-todo-nextjs</h1>
     <span className="max-w-full p-8 bg-gray-800 rounded-lg shadow-lg w-96 text-gray-200 items-center">
       {todos?.map((todo) => (
-        <span>
+        <span key={todo._id}>
           <input className="hidden" type="checkbox" checked={todo.done} id={todo._id} value={todo._id} onChange={e => api.collection("todo").patch({ done: e.target.checked }, { query: { _id: e.target.value } })} />
           <label className="flex items-center h-10 px-2 rounded cursor-pointer hover:bg-gray-900" htmlFor={todo._id}>
             <span className="flex items-center justify-center w-5 h-5 text-transparent border-2 border-gray-500 rounded-full">
