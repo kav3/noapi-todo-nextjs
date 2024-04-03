@@ -4,7 +4,7 @@
 - [farsi documents](https://noapi.ir/dashboard/docs)
 
 ## demo
-[online demo](https://kav3.github.io/noapi-todo-nextjs)
+[online demo](https://kav3.github.io/noapi-todo-nextjs/)
 
 ## install
 1. clone project

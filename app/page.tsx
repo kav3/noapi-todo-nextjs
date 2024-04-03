@@ -61,7 +61,7 @@ export default function Home() {
       </form>
     </span>
     <span className="flex">
-      <a target='_blank' className='flex gap-1 items-center text-sm text-white' href="https://github.com/kav3/noapi-todo-nextjs-example"><FaGithub size={16} /> github </a>
+      <a target='_blank' className='flex gap-1 items-center text-sm text-white' href="https://github.com/kav3/noapi-todo-nextjs"><FaGithub size={16} /> github </a>
     </span>
   </span>);
 }
